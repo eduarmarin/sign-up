@@ -1,0 +1,114 @@
+.back{
+    height: 100%;
+    background-color: antiquewhite;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* margin: 20px 20px 20px 20px; */
+}
+.imagen{
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: relative;
+    background-color: orange;
+}
+.imag{
+    height: 100%; 
+    width: 100%;
+}
+.imag img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+.logo-odin{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.5;
+}
+.logo-odin img{
+    width: 100px;
+    height: auto;
+    margin-right: 30px;
+    /* background-color: blue; */
+}
+.logo-odin p{
+    margin-top: 5%;
+    color: white;
+    /* text-align: center; */
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    background-color: blue;
+}
+.data-registration{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: aqua;
+}
+.lets{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.datas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.coldata{
+    background-color: green;
+    max-width: 250px;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 20px ;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 30px;
+    justify-content: center;
+    /* margin-left: 30px;  */
+    width: 100%;
+    background-color: red;
+}
+form div input{
+    max-width: 100%;
+}
+.paragraph{
+    padding: 30px 30px 30px 30px ;
+}
+@media screen and (max-width:600px) {
+    .container{
+        flex-direction: column;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .datas{
+        flex-direction: column;
+    }
+}
