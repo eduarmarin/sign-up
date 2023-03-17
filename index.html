@@ -23,61 +23,62 @@
           <div><img src="images/odin-lined.png" alt=""></div>
           <p>ODIN</p>
         </div>
+        <div class="pixabay"> <p>Imagen taked from Pixabay</p></div>
       </div>
-      <div class="registration"> <!--registration section; two rows: paragraph and data registration-->
+      <form class="registration" action="#" method="get"> <!--registration section; three rows: paragraph, data registration and buttons-->
         <div class="paragraph"> <!--paragraph-->
-          <p>This is not a real online! You know you need something like this in your liveto help you realize your deepest dreams. Sign up now to get started.</p>
+          <p>This is not a real online! You know you need something like this in your live to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
           <br>
-          <p>You know you wanted</p>          
+          <p>You <em>know</em> you wanted</p>          
         </div>
         <div class="data-registration"> <!-- data registration contain two rows-->
-          <div class="lets">let's do it</div>
-          <div class="datas"> <!--data in two columns-->
-            <div class="first-col coldata"> <!--first column-->
-              <form action="#" method="get">
-                <div>
+          <div class="lets"> let's do it</div>
+          <div class="datas"> <!--data contain two columns-->
+            <!-- <div class="first-col coldata"> first column -->
+              <!-- <div action="#" method="get"> -->
+              <div  class="rowone rows">
+                <div class="inputs">
                   <label for="NAME" >NAME:</label>
                   <input type="text" id="user_name" name="user_name" required>
                 </div>
-                <br>
-                <div>                  
-                  <label for="user_email">EMAIL</label>
-                  <input type="email" id="user_email" name="user_email" required>
-                </div>
-                <br>
-                <div>
-                  <label for="user_password">PASSWORD</label>
-                  <input type="password" id="user_password" name="user_password" required>
-                </div>
-                <br>
-              </form>
-            </div>
-            <div class="second-col coldata"> <!--second column-->
-              <form action="#" method="get">
-                <div>
+                <div class="inputs">
                   <label for="LAST_NAME" >LAST NAME:</label>
                   <input type="text" id="user_last_name" name="user_last_name" required>
                 </div>
-                <br>
-                <div>                  
+              </div>
+              <div class="rowtwo rows">
+                <div class="inputs">                  
+                  <label for="user_email">EMAIL</label>
+                  <input type="email" id="user_email" name="user_email" required>
+                </div>
+                      <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="second-col coldata"> second column -->
+                      <!-- <div action="#" method="get"> -->
+                <div class="inputs">                  
                   <label for="user_number">PHONE NUMBER</label>
                   <input type="number" id="user_number" name="user_number" required>
                 </div>
-                <br>
-                <div>
+              </div>
+              <div class="rowthree rows">
+                <div class="inputs">
+                  <label for="user_password">PASSWORD</label>
+                  <input type="password" id="user_password" name="user_password" required>
+                </div>
+                <div class="inputs">
                   <label for="user_password">CONFIRM PASSWORD</label>
                   <input type="password" id="user_password" name="user_password" required>
                 </div>
-                <br>
-              </form>
-            </div>
+              </div>
+              <!-- </div> -->
+            <!-- </div> -->
           </div>
         </div>
         <div class="account"> <!--third column-->
           <button type="submit"> Create Account</button>
           <p>Alraedy have an account? <a href="*">Log in</a></p>
         </div>
-      </div> <!--registratio section end-->
+      </form> <!--registratio section end-->
     </div>
   </section>
 </body>
